@@ -1,5 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "releases": []
+  "updatedAt": "2026-09-16T05:47:30.816313+00:00",
+  "releases": [
+    {
+      "id": 389665154,
+      "tag_name": "apk-beta-1.0.2",
+      "name": "1.0.2",
+      "body": "测试上传apk\n\n<!-- fibocom-upload:b0f0cf67-0d74-4404-94b6-fda7d4f4c1c9 sha256:7dc3a36ccc930d4a4abb62262d73ae70a67e7ca1f70fa3415c1ea0a3017e3d13 -->",
+      "prerelease": true,
+      "draft": false,
+      "published_at": "2026-09-16T05:47:26Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-beta-1.0.2",
+      "assets": [
+        {
+          "id": 567286083,
+          "name": "apk-beta-1.0.2.apk",
+          "state": "uploaded",
+          "size": 145111036,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-beta-1.0.2/apk-beta-1.0.2.apk",
+          "digest": "sha256:7dc3a36ccc930d4a4abb62262d73ae70a67e7ca1f70fa3415c1ea0a3017e3d13"
+        }
+      ]
+    }
+  ]
 }
