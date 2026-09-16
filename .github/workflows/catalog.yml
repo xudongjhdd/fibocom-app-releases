@@ -1,0 +1,36 @@
+name: Update APK catalog
+on:
+  release:
+    types: [published, edited, deleted, unpublished, prereleased, released]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: apk-catalog
+  cancel-in-progress: false
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Build public APK catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import os, subprocess, tempfile, urllib.request
+          repository = os.environ['GITHUB_REPOSITORY']
+          # Read the protected implementation from main, never from a release tag.
+          request = urllib.request.Request(
+              f'https://api.github.com/repos/{repository}/contents/scripts/build_catalog.py?ref=main',
+              headers={'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN'],
+                       'Accept': 'application/vnd.github.raw+json',
+                       'User-Agent': 'fibocom-release-catalog'})
+          with urllib.request.urlopen(request, timeout=30) as response:
+              script = response.read()
+          with tempfile.TemporaryDirectory() as directory:
+              path = directory + '/build_catalog.py'
+              with open(path, 'wb') as output:
+                  output.write(script)
+              subprocess.run(['python3', path], check=True)
+          PY
