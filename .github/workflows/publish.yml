@@ -1,0 +1,32 @@
+name: Publish website APK uploads
+on:
+  schedule:
+    - cron: '2-59/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: apk-catalog
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Publish queued APKs and clean temporary files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          APK_PUBLISHER_EMAIL: ${{ secrets.APK_PUBLISHER_EMAIL }}
+          APK_PUBLISHER_PASSWORD: ${{ secrets.APK_PUBLISHER_PASSWORD }}
+        run: python3 scripts/publish_apk.py
+      - name: Refresh public catalog
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_catalog.py
