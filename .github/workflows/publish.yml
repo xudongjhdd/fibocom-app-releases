@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '2-59/5 * * * *'
   workflow_dispatch:
+    inputs:
+      delete_release_id:
+        description: Older APK release ID to delete (leave empty to publish)
+        required: false
+        default: ""
+        type: string
 permissions:
   contents: write
 concurrency:
@@ -17,7 +23,14 @@ jobs:
         with:
           ref: main
           persist-credentials: false
+      - name: Delete older APK release
+        if: ${{ inputs.delete_release_id != '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DELETE_RELEASE_ID: ${{ inputs.delete_release_id }}
+        run: python3 scripts/delete_apk.py
       - name: Publish queued APKs and clean temporary files
+        if: ${{ inputs.delete_release_id == '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
