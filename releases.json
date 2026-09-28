@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T06:07:47.354371+00:00",
+  "updatedAt": "2026-09-28T01:54:58.374574+00:00",
   "releases": [
+    {
+      "id": 397896620,
+      "tag_name": "apk-beta-1.0.9",
+      "name": "1.0.9",
+      "body": "1.围栏优化 2.敏感词校验 3.活动步数图表\n\n<!-- fibocom-upload:db5c5371-830d-4eed-836d-870c10ac4111 sha256:84ea969c8db31e696d5d76c1873f9e064a2c3166fded5446db91c1c05b3287d9 -->",
+      "prerelease": true,
+      "draft": false,
+      "published_at": "2026-09-28T01:54:53Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-beta-1.0.9",
+      "assets": [
+        {
+          "id": 594227438,
+          "name": "apk-beta-1.0.9.apk",
+          "state": "uploaded",
+          "size": 146868432,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-beta-1.0.9/apk-beta-1.0.9.apk",
+          "digest": "sha256:84ea969c8db31e696d5d76c1873f9e064a2c3166fded5446db91c1c05b3287d9"
+        }
+      ]
+    },
     {
       "id": 394335946,
       "tag_name": "apk-beta-1.0.8",
