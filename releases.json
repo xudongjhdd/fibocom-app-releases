@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T10:25:24.105107+00:00",
+  "updatedAt": "2026-10-19T10:38:26.907528+00:00",
   "releases": [
+    {
+      "id": 417171466,
+      "tag_name": "apk-beta-1.0.14",
+      "name": "1.0.14",
+      "body": "定制美国客户设备蓝牙升级\n\n<!-- fibocom-upload:36cb481b-fa71-4d8c-9964-d56901802186 sha256:6b86fa95317a088d903d997310920f50a8a2f564d6f7baca1d3991256f741c0c -->",
+      "prerelease": true,
+      "draft": false,
+      "published_at": "2026-10-19T10:38:21Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-beta-1.0.14",
+      "assets": [
+        {
+          "id": 655974604,
+          "name": "apk-beta-1.0.14.apk",
+          "state": "uploaded",
+          "size": 170043870,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-beta-1.0.14/apk-beta-1.0.14.apk",
+          "digest": "sha256:6b86fa95317a088d903d997310920f50a8a2f564d6f7baca1d3991256f741c0c"
+        }
+      ]
+    },
     {
       "id": 417160889,
       "tag_name": "apk-beta-1.0.13",
