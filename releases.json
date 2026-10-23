@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T10:41:37.909871+00:00",
+  "updatedAt": "2026-10-23T06:28:14.016508+00:00",
   "releases": [
+    {
+      "id": 421515400,
+      "tag_name": "apk-beta-1.0.15",
+      "name": "1.0.15",
+      "body": "1.训练接入涂鸦真实接口 2.UI 优化\n\n<!-- fibocom-upload:4178266e-81f5-4aea-8a75-b241264ff4d1 sha256:60827edc9239677d41ff56e09af95dc3867495d471f548ffbc581283ef98a192 -->",
+      "prerelease": true,
+      "draft": false,
+      "published_at": "2026-10-23T06:28:08Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-beta-1.0.15",
+      "assets": [
+        {
+          "id": 668199389,
+          "name": "apk-beta-1.0.15.apk",
+          "state": "uploaded",
+          "size": 170259754,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-beta-1.0.15/apk-beta-1.0.15.apk",
+          "digest": "sha256:60827edc9239677d41ff56e09af95dc3867495d471f548ffbc581283ef98a192"
+        }
+      ]
+    },
     {
       "id": 417171466,
       "tag_name": "apk-beta-1.0.14",
