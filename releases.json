@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T06:28:14.016508+00:00",
+  "updatedAt": "2026-11-02T05:57:33.525742+00:00",
   "releases": [
+    {
+      "id": 431116154,
+      "tag_name": "apk-beta-1.0.16",
+      "name": "1.0.16",
+      "body": "宠物资料改用涂鸦接口、训练报告相关对接涂鸦接口\n\n<!-- fibocom-upload:a1e0dad1-5b61-4576-8f86-e0a8cf13b6e5 sha256:e0cb380f147124af249d354e17cfb0d6bbcbfd4981d6079b55b4b05046454db2 -->",
+      "prerelease": true,
+      "draft": false,
+      "published_at": "2026-11-02T05:57:27Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-beta-1.0.16",
+      "assets": [
+        {
+          "id": 700691890,
+          "name": "apk-beta-1.0.16.apk",
+          "state": "uploaded",
+          "size": 173949228,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-beta-1.0.16/apk-beta-1.0.16.apk",
+          "digest": "sha256:e0cb380f147124af249d354e17cfb0d6bbcbfd4981d6079b55b4b05046454db2"
+        }
+      ]
+    },
     {
       "id": 421515400,
       "tag_name": "apk-beta-1.0.15",
