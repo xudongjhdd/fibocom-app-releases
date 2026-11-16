@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T06:07:19.006079+00:00",
+  "updatedAt": "2026-11-16T06:12:20.675688+00:00",
   "releases": [
     {
       "id": 446665835,
@@ -19,26 +19,6 @@
           "size": 160455315,
           "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-stable-1.0.10/apk-stable-1.0.10.apk",
           "digest": "sha256:39ca72180a6ee5bc284f9aa0caf7b95985568e03e09d7ffa053e874676bb66f0"
-        }
-      ]
-    },
-    {
-      "id": 438915041,
-      "tag_name": "apk-stable-1.0.17",
-      "name": "1.0.17",
-      "body": "第一版本正式环境\n\n<!-- fibocom-upload:04d24699-fce7-480f-980b-10aaf6a79577 sha256:c2613ab961fdd081c3d7cd28ab045e3e413b822e9c9e7f30cf2991dadf64e152 -->",
-      "prerelease": false,
-      "draft": false,
-      "published_at": "2026-11-09T09:04:53Z",
-      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-stable-1.0.17",
-      "assets": [
-        {
-          "id": 726850497,
-          "name": "apk-stable-1.0.17.apk",
-          "state": "uploaded",
-          "size": 160425257,
-          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-stable-1.0.17/apk-stable-1.0.17.apk",
-          "digest": "sha256:c2613ab961fdd081c3d7cd28ab045e3e413b822e9c9e7f30cf2991dadf64e152"
         }
       ]
     },
