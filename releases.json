@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T06:12:20.675688+00:00",
+  "updatedAt": "2026-11-19T09:45:46.016101+00:00",
   "releases": [
+    {
+      "id": 451139756,
+      "tag_name": "apk-beta-1.0.18",
+      "name": "1.0.18",
+      "body": "1.优化整理配网流程 2.训练模块加入删除声音功能 3.训练模块加入训练器的电量与在离线的显示 4.优化UI\n\n<!-- fibocom-upload:30d82a36-2e1c-4d44-9752-3a1fe609e35b sha256:1af9688ed97ac252baf2a25deec8e54d13b69b28d2bf86b5d0d3e86aea5543bf -->",
+      "prerelease": true,
+      "draft": false,
+      "published_at": "2026-11-19T09:45:40Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-beta-1.0.18",
+      "assets": [
+        {
+          "id": 767102536,
+          "name": "apk-beta-1.0.18.apk",
+          "state": "uploaded",
+          "size": 176087745,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-beta-1.0.18/apk-beta-1.0.18.apk",
+          "digest": "sha256:1af9688ed97ac252baf2a25deec8e54d13b69b28d2bf86b5d0d3e86aea5543bf"
+        }
+      ]
+    },
     {
       "id": 446665835,
       "tag_name": "apk-stable-1.0.10",
