@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T09:45:46.016101+00:00",
+  "updatedAt": "2026-11-20T02:19:04.682589+00:00",
   "releases": [
+    {
+      "id": 452188503,
+      "tag_name": "apk-stable-1.0.11",
+      "name": "1.0.11",
+      "body": "1. 优化设备绑定与手机、训练器配对流程，完善断连恢复、超时处理和失败清理。\n2. 支持删除训练声音，完善声音下载回执，避免重复下发声音配置。\n3. 修正训练器电量、图片和在线状态显示，优化设备详情弹窗及 SN、Device ID 展示。\n4. 优化健康报告内容和日历界面，围栏响应开关仅向家庭 Owner 显示。\n5. 修正 Google 地图在中国大陆的坐标显示偏移。\n6. 停止将轨迹预览截图自动保存到手机相册。\n\n<!-- fibocom-upload:8a9e0e07-0d4d-4cd6-9bfd-b70161554129 sha256:8a06c843d278378005bab23962b2b32f28907176dc29b49e377efb442412f88a -->",
+      "prerelease": false,
+      "draft": false,
+      "published_at": "2026-11-20T02:18:59Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-stable-1.0.11",
+      "assets": [
+        {
+          "id": 770106095,
+          "name": "apk-stable-1.0.11.apk",
+          "state": "uploaded",
+          "size": 160768034,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-stable-1.0.11/apk-stable-1.0.11.apk",
+          "digest": "sha256:8a06c843d278378005bab23962b2b32f28907176dc29b49e377efb442412f88a"
+        }
+      ]
+    },
     {
       "id": 451139756,
       "tag_name": "apk-beta-1.0.18",
