@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T06:13:53.323400+00:00",
+  "updatedAt": "2026-11-24T02:01:31.198801+00:00",
   "releases": [
+    {
+      "id": 456217851,
+      "tag_name": "apk-stable-1.0.12",
+      "name": "1.0.12",
+      "body": "1. 完善手机蓝牙配对与恢复流程，优化连接状态确认和异常处理。\n2. 优化家庭手机管理及已配对设备操作。\n3. 蓝牙固件升级适配 V2 协议，完善升级状态与失败提示。\n4. 新增定位详情、围栏编辑和区域列表的首次使用引导。\n5. 区分围栏响应与手动训练配置，优化训练配置同步。\n6. 修复英文设备离线告警的识别。\n\n<!-- fibocom-upload:c80399d6-57ce-494d-b79b-8dc5460a6df6 sha256:80758e759a66c89f1b7da4637828159f18525c4ecedbeb9ab90d457394d27022 -->",
+      "prerelease": false,
+      "draft": false,
+      "published_at": "2026-11-24T02:01:26Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-stable-1.0.12",
+      "assets": [
+        {
+          "id": 785318365,
+          "name": "apk-stable-1.0.12.apk",
+          "state": "uploaded",
+          "size": 160855311,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-stable-1.0.12/apk-stable-1.0.12.apk",
+          "digest": "sha256:80758e759a66c89f1b7da4637828159f18525c4ecedbeb9ab90d457394d27022"
+        }
+      ]
+    },
     {
       "id": 452188503,
       "tag_name": "apk-stable-1.0.11",
