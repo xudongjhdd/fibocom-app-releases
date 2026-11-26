@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:01:31.198801+00:00",
+  "updatedAt": "2026-11-26T10:21:50.692163+00:00",
   "releases": [
+    {
+      "id": 459250032,
+      "tag_name": "apk-beta-1.0.19",
+      "name": "1.0.19",
+      "body": "UNISKY Home 1.0.19 更新内容\n- 项圈绑定与开通：可从宠物档案直接进入添加设备流程，绑定成功后自动刷新设备信息。支持发现未广播序列号的待开通项圈，修复配对状态误判、旧记录阻挡重新绑定等问题，并完善激活超时提示。\n- 健康报告：新增每日跑步时长、睡眠时长和睡眠中断次数统计，睡眠详情接入每日数据。优化跑步双环和周成就展示，周报按每日步行和跑步汇总对比两周活动量。\n- 定位与寻宠：统一百度地图的坐标转换和默认缩放比例，寻宠倒计时在不同账号间同步。项圈充电时仍可操作首页，充电或离线时会停用定位相关入口。\n- 家庭与宠物管理：会员过期后按剩余名额处理家庭邀请。账号没有家庭时回到创建宠物引导，编辑宠物档案时按品种提示推荐体重。\n- 设备状态与通知：管理首页统一显示设备的云端在线状态，修复蓝牙权限撤销后状态未同步，以及项圈后台服务停止后通知重新出现的问题。围栏响应和手动训练可分别配置。\n\n<!-- fibocom-upload:2d7e44dc-8f6f-46eb-9d70-06ea5213fc55 sha256:844320df663a08d603dfc1e343ae2a247aabf8ed5d8986066b998f34471640e5 -->",
+      "prerelease": true,
+      "draft": false,
+      "published_at": "2026-11-26T10:21:46Z",
+      "html_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/tag/apk-beta-1.0.19",
+      "assets": [
+        {
+          "id": 795345454,
+          "name": "apk-beta-1.0.19.apk",
+          "state": "uploaded",
+          "size": 176849290,
+          "browser_download_url": "https://github.com/xudongjhdd/fibocom-app-releases/releases/download/apk-beta-1.0.19/apk-beta-1.0.19.apk",
+          "digest": "sha256:844320df663a08d603dfc1e343ae2a247aabf8ed5d8986066b998f34471640e5"
+        }
+      ]
+    },
     {
       "id": 456217851,
       "tag_name": "apk-stable-1.0.12",
